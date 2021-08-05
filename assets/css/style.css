@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --primary-color: #8b016a;
+    --secondary-color: #6f1159;
+    --third-color: #ffff;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(var(--primary-color),var(--secondary-color));
+    min-height: 100vh;
+}
+
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+#header .logo{
+    color: var(--third-color);
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+#header .navegation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .navegation li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+#header .navegation li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: var(--third-color);
+    border-radius: 20px;
+}
+
+#header .navegation li a:hover,
+#header .navegation li a.active{
+    color: var(--secondary-color);
+    background: var(--third-color);
+}
