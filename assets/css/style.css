@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 
 :root{
     --primary-color: #8b016a;
     --secondary-color: #6f1159;
-    --third-color: #ffff;    
+    --third-color: #ffff;  
+    --fourth-color: #96283a;  
 }
 
 *{
@@ -80,3 +82,33 @@ body{
     pointer-events: none;
 }
 
+#home img#lamp{
+    mix-blend-mode: screen;
+}
+
+#home img#tajMahal{
+    transform: translateY(-20px);
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateX(-50%);
+    color: var(--third-color);
+    font-size: 10vw;
+    white-space: nowrap;
+    text-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+    font-family: 'Rancho', cursive;
+}
+
+#sec{
+    position: relative;
+    padding: 100px;
+    background: var(--fourth-color);    
+}
+
+#sec h2{
+    font-size: 3em;
+    color: var(--third-color);    
+}
