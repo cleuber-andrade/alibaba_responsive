@@ -132,14 +132,30 @@ body{
         display: none;
     }
     .toggle{
-        position: relative;
         width: 30px;
         height: 30px;
         cursor: pointer;
-        background: url(../img/menu.png);
-        background-size: 30px;
-        background-position: center;
-        background-repeat: no-repeat;
-
     }
+    .bar1, .bar2, .bar3 {
+        position: relative;
+        width: 35px;
+        height: 5px;
+        background-color: var(--third-color);
+        margin: 6px 0;
+        transition: 0.4s;      
+        z-index: 1000;
+        
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+      
+    .change .bar2 {opacity: 0;}
+      
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+
 }
