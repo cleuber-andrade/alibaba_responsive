@@ -1,3 +1,4 @@
-function myFunction(animation) {
-    animation.classList.toggle("change");
-  }
+function menuToggle(animation) {
+    animation.classList.toggle("change");   
+    animation.classList.toggle("active");  
+}
