@@ -19,6 +19,7 @@
 body{
     background: linear-gradient(var(--primary-color),var(--secondary-color));
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 #header{
@@ -93,7 +94,7 @@ body{
 #text{
     position: absolute;
     top: 50%;
-    right: 0;
+    right: -100%;
     transform: translateX(-50%);
     color: var(--third-color);
     font-size: 10vw;
@@ -110,5 +111,35 @@ body{
 
 #sec h2{
     font-size: 3em;
-    color: var(--third-color);    
+    color: var(--third-color); 
+    margin-bottom: 10px;   
+}
+
+#sec p{
+    font-size: 1em;
+    color: var(--third-color);
+    font-weight: 300;
+}
+
+@media(max-width: 992px){
+    #header{
+        padding: 20px;
+    }
+    #header .logo{
+        font-size: 1.5em;
+    }
+    #header .navegation{
+        display: none;
+    }
+    .toggle{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url(../img/menu.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
 }
