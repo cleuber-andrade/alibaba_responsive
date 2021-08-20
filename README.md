@@ -27,7 +27,7 @@ Praticar conhecimentos sobre HTML5, CSS3 e JavaScript
 
 ## :pager: Tela principal da Site Moon Light
 
- <img src="https://github.com/cleuber-andrade/landpage_moon_light/blob/main/assets/img/moon.jpg" alt="Tela Principal">
+ <img src="https://github.com/cleuber-andrade/alibaba_responsive/blob/main/assets/img/alibaba.jpg" alt="Tela Principal">
 
 ## :globe_with_meridians: Link para acessar site no GitHubPages
 
