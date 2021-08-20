@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  ✔️Site Moon Light✔️
+  ✔️Site Alibaba✔️
 </h1>
 
 ## 💻 Sobre o projeto
@@ -25,19 +25,19 @@ Praticar conhecimentos sobre HTML5, CSS3 e JavaScript
 </div> <br> 
 
 
-## :pager: Tela principal da Site Moon Light
+## :pager: Tela principal da Site Alibaba
 
  <img src="https://github.com/cleuber-andrade/alibaba_responsive/blob/main/assets/img/alibaba.jpg" alt="Tela Principal">
 
 ## :globe_with_meridians: Link para acessar site no GitHubPages
 
-Para visualizar o site no GitHubPages <a href="https://cleuber-andrade.github.io/landpage_moon_light/" target="_blank">Clique aqui</a>
+Para visualizar o site no GitHubPages <a href="https://cleuber-andrade.github.io/alibaba_responsive/" target="_blank">Clique aqui</a>
 
 ## 👷 Como rodar
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/cleuber-andrade/landpage_moon_light.git
+git clone https://github.com/cleuber-andrade/alibaba_responsive.git
 
 # Entrar numa IDE de sua preferência 
 
